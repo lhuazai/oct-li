@@ -1,0 +1,49 @@
+{
+  "name": "oct-cli",
+  "version": "0.0.1",
+  "description": "octopus项目生成脚手架",
+  "keywords": [
+    "oct-cli",
+    "octopus-cli"
+  ],
+  "author": "",
+  "homepage": "",
+  "license": "ISC",
+  "main": "bin/oct-cli.js",
+  "bin": {
+    "oct-cli": "./bin/oct-cli.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.1",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
